@@ -1,0 +1,27 @@
+{
+  "name": "minimal-playroom-ve-example",
+  "version": "0.0.0",
+  "description": "A minimal repro for setting up VE in Playroom",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build"
+  },
+  "devDependencies": {
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "playroom": "^0.28.2",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.9.4",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0"
+  },
+  "dependencies": {
+    "@vanilla-extract/babel-plugin": "^1.2.0",
+    "@vanilla-extract/css": "^1.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
